@@ -20,9 +20,10 @@ export const iframePlayer = defineIframePlayer({
   setActive: (href) => {
     $<HTMLAnchorElement>('.anthology-list-play li a').each((_, el) => {
       if (el.href === href) {
-        el.parentElement!.classList.add('on')
+        el.parentElement!.classList.add('ecnav-dt', 'on')
+        $('.play-on').insertAfter($(el).find('span'))
       } else {
-        el.parentElement!.classList.remove('on')
+        el.parentElement!.classList.remove('ecnav-dt', 'on')
       }
     })
   },
