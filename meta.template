@@ -1,9 +1,10 @@
 // ==UserScript==
-// @name         Anime Enhance
-// @namespace    https://github.com/Lanthing/agefans-enhance
+// @name         agefans Enhance
+// @namespace    https://github.com/IronKinoko/agefans-enhance
+// @icon         https://www.age.tv/favicon.ico
 // @version      #version#
 // @description  #description#
-// @author       Lanthing
+// @author       IronKinoko
 // @include      https://www.age.tv/*
 // @include      https://www.agefans.*
 // @include      https://www.agemys.*
@@ -42,7 +43,7 @@
 // @require      https://unpkg.com/plyr@3.6.4/dist/plyr.min.js
 // @require      https://unpkg.com/hls.js@1.6.15/dist/hls.min.js
 // @require      https://unpkg.com/flv.js@1.6.2/dist/flv.min.js
-// @require      https://unpkg.com/@ironkinoko/danmaku@1.4.3/dist/danmaku.umd.js
+// @require      https://unpkg.com/@ironkinoko/danmaku@1.4.5/dist/danmaku.umd.js
 // @require      https://unpkg.com/opencc-js@1.0.5/dist/umd/full.js
 // @grant        GM_getValue
 // @grant        GM_setValue
